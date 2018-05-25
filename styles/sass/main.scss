@@ -1,0 +1,308 @@
+// global variables
+
+$primary-font:'Roboto', sans-serif;
+$super-font:'Playfair Display', serif;
+$page-width:75em;
+$light-grey:#d6dde5;
+$grey:#82878b;
+$red:#894d53;
+$button-border-radius:4.8px;
+$content-border-radius:24px;
+
+// nav variables
+
+$nav-height:4em;
+$nav-container-height:3.5em;
+
+
+// global
+
+body,html,div {
+	font-family:$primary-font;
+	font-weight:300;
+	font-size:0.97em;
+	margin:0;
+	padding:0;
+}
+
+.horizontal-center {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+strong {
+	font-family:$primary-font;
+	font-weight:500;
+}
+
+.hover {
+	-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.bold {
+	font-weight:700;
+}
+
+
+// nav
+
+.container-page {
+	margin:0 auto;
+	width:$page-width;
+}
+
+.section-nav-primary {
+	border-bottom:1px solid $light-grey;
+	height:$nav-height;
+	width:100%;
+	left:0;
+	right:0;
+	position:absolute;
+}
+
+.container-nav {
+	height:$nav-container-height;
+	margin:0 auto;
+	width:$page-width;
+	@extend .horizontal-center;
+}
+
+.HAlogo {
+	float:left;
+	position:relative;
+	transform:translateY(7%);
+	width:10em;
+}
+
+.wrapper-left {
+	display:inline-block;
+	height:$nav-container-height;
+	width:32em;
+
+	ul {
+		float:right;
+		margin:0;
+		padding:0;
+		@extend .horizontal-center;
+
+		li {
+			display:inline-block;
+			list-style-type:none;
+			margin:0 0.2em;
+			padding:0.5em;
+
+		}
+
+		li.first {
+			margin-left:0;
+		}
+
+		li.last {
+			margin-right:0;
+		}
+
+	}
+
+}
+
+.wrapper-right {
+	height:$nav-container-height;
+	width:24.7em;
+	float:right;
+	@extend .horizontal-center;
+
+}
+
+.container-location {
+	border:1px solid white;
+	border-radius:$button-border-radius;
+	height:2em;
+	padding:0.5em 0.5em;
+	width:47%;
+	@extend .horizontal-center;
+	@extend .hover;
+}
+
+.container-location:hover {
+	border:1px solid $light-grey;
+}
+
+.location-icon {
+	height:1.5em;
+	position:relative;
+	transform:translateY(7%);
+}
+
+.location {
+	display:inline;
+	position:relative;
+	top:-10%;
+}
+
+.container-other-links {
+	float:right;
+	height:2em;
+	position:relative;
+	text-align:right;
+	top:-82%;
+	transform:translateY(30%);
+	width:45%;
+
+	a {
+		color:black;
+		position:relative;
+		text-decoration:none;
+		top:19%;
+		margin-left:1em;
+	}
+
+	.login {
+		@extend .hover
+	}
+
+	a:hover {
+		color:$red;
+	}
+}
+
+
+// header
+
+.section-header-strip {
+	position:relative;
+	top:$nav-height;
+}
+
+.container-header {
+	background-color:$red;
+	border-radius:$content-border-radius;
+	height:37em;
+	position:relative;
+	top:1.7em;
+	width:100%;
+}
+
+.container-header-text {
+	height:14em;
+	margin:0 auto;
+	width:57.7em;
+	@extend .horizontal-center;
+
+	h1,h2 {
+		color:white;
+		margin:0;
+		position:relative;
+		top:0;
+
+	}
+
+	h1 {
+		font-family:$super-font;
+		font-size:3em;
+		top:0;
+	}
+
+	h2 {
+		font-family:$primary-font;
+		font-size:1.4em;
+		font-weight:300;
+		line-height:1.5em;
+		margin-top:1em;
+	}
+}
+
+
+//selections
+
+.section-button-strip {
+	height:37em;
+	margin:0 auto;
+	width:100%;
+}
+
+.container-selection-outer {
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	width:100%;
+
+	.left {
+		float:left;
+	}
+
+	.right {
+		float:right;
+	}
+}
+
+.selection {
+	border:1px solid $light-grey;
+	border-radius:$content-border-radius;
+	display:inline-block;
+	height:27em;
+	margin:7.57em 0 2em 0;
+	text-align:center;
+	width:25.9em;
+	@extend .hover;
+
+	.container-selection-inner {
+		height:20em;
+		margin:0 auto;
+		width:23em;
+		@extend .horizontal-center;
+	}
+
+	.text {
+		line-height:1.5em;
+		top:0;
+	}
+
+	.image {
+		margin:2em auto 0 auto;
+		position:relative;
+		width:20em;
+		height:12em;
+		background-color:black;
+	}
+
+}
+
+.selection:hover {
+	border:1px solid $red;
+}
+
+.image.first {
+	background-image: url(../../media/findadoctor.jpg);
+	background-size:cover;
+}
+
+.image.second {
+	background-image: url(../../media/findapharmacy.jpg);
+	background-size:cover;
+}
+
+.image.third {
+	background-image: url(../../media/talktoaguide.jpg);
+	background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+body, html, div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.97em;
+  margin: 0;
+  padding: 0; }
+
+.horizontal-center, .container-nav, .wrapper-left ul, .wrapper-right, .container-location, .container-header-text, .selection .container-selection-inner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500; }
+
+.hover, .container-location, .container-other-links .login, .selection {
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
+
+.bold {
+  font-weight: 700; }
+
+.container-page {
+  margin: 0 auto;
+  width: 75em; }
+
+.section-nav-primary {
+  border-bottom: 1px solid #d6dde5;
+  height: 4em;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute; }
+
+.container-nav {
+  height: 3.5em;
+  margin: 0 auto;
+  width: 75em; }
+
+.HAlogo {
+  float: left;
+  position: relative;
+  transform: translateY(7%);
+  width: 10em; }
+
+.wrapper-left {
+  display: inline-block;
+  height: 3.5em;
+  width: 32em; }
+  .wrapper-left ul {
+    float: right;
+    margin: 0;
+    padding: 0; }
+    .wrapper-left ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0 0.2em;
+      padding: 0.5em; }
+    .wrapper-left ul li.first {
+      margin-left: 0; }
+    .wrapper-left ul li.last {
+      margin-right: 0; }
+
+.wrapper-right {
+  height: 3.5em;
+  width: 24.7em;
+  float: right; }
+
+.container-location {
+  border: 1px solid white;
+  border-radius: 4.8px;
+  height: 2em;
+  padding: 0.5em 0.5em;
+  width: 47%; }
+
+.container-location:hover {
+  border: 1px solid #d6dde5; }
+
+.location-icon {
+  height: 1.5em;
+  position: relative;
+  transform: translateY(7%); }
+
+.location {
+  display: inline;
+  position: relative;
+  top: -10%; }
+
+.container-other-links {
+  float: right;
+  height: 2em;
+  position: relative;
+  text-align: right;
+  top: -82%;
+  transform: translateY(30%);
+  width: 45%; }
+  .container-other-links a {
+    color: black;
+    position: relative;
+    text-decoration: none;
+    top: 19%;
+    margin-left: 1em; }
+  .container-other-links a:hover {
+    color: #894d53; }
+
+.section-header-strip {
+  position: relative;
+  top: 4em; }
+
+.container-header {
+  background-color: #894d53;
+  border-radius: 24px;
+  height: 37em;
+  position: relative;
+  top: 1.7em;
+  width: 100%; }
+
+.container-header-text {
+  height: 14em;
+  margin: 0 auto;
+  width: 57.7em; }
+  .container-header-text h1, .container-header-text h2 {
+    color: white;
+    margin: 0;
+    position: relative;
+    top: 0; }
+  .container-header-text h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+    top: 0; }
+  .container-header-text h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-top: 1em; }
+
+.section-button-strip {
+  height: 37em;
+  margin: 0 auto;
+  width: 100%; }
+
+.container-selection-outer {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .container-selection-outer .left {
+    float: left; }
+  .container-selection-outer .right {
+    float: right; }
+
+.selection {
+  border: 1px solid #d6dde5;
+  border-radius: 24px;
+  display: inline-block;
+  height: 27em;
+  margin: 7.57em 0 2em 0;
+  text-align: center;
+  width: 25.9em; }
+  .selection .container-selection-inner {
+    height: 20em;
+    margin: 0 auto;
+    width: 23em; }
+  .selection .text {
+    line-height: 1.5em;
+    top: 0; }
+  .selection .image {
+    margin: 2em auto 0 auto;
+    position: relative;
+    width: 20em;
+    height: 12em;
+    background-color: black; }
+
+.selection:hover {
+  border: 1px solid #894d53; }
+
+.image.first {
+  background-image: url(../../media/findadoctor.jpg);
+  background-size: cover; }
+
+.image.second {
+  background-image: url(../../media/findapharmacy.jpg);
+  background-size: cover; }
+
+.image.third {
+  background-image: url(../../media/talktoaguide.jpg);
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
