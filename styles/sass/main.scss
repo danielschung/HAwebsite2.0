@@ -6,8 +6,8 @@ $page-width:75em;
 $light-grey:#d6dde5;
 $grey:#82878b;
 $red:#894d53;
-$button-border-radius:4.8px;
-$content-border-radius:24px;
+$button-border-radius:8px;
+$content-border-radius:8px;
 
 // nav variables
 
@@ -26,7 +26,7 @@ body,html,div {
 }
 
 a {
-	color:black;
+	color:$grey;
 }
 
 a:hover {
@@ -63,7 +63,7 @@ ul {
 }
 
 button {
-	border-radius:24px;
+	border-radius:$button-border-radius;
 	font-family:$primary-font;
 	font-weight:300;
 	font-size:1.3em;
@@ -115,7 +115,7 @@ input:focus {
 .wrapper-left {
 	display:inline-block;
 	height:$nav-container-height;
-	width:32em;
+	width:28em;
 
 	ul {
 		float:right;
@@ -128,8 +128,8 @@ input:focus {
 			list-style-type:none;
 			margin:0 0.2em;
 			padding:0.5em;
-
 		}
+
 
 		li.first {
 			margin-left:0;
@@ -462,6 +462,50 @@ footer {
 
 }
 
+
+// bottom nav
+
+.bottom-nav {
+	height:3.4em;
+	position:relative;
+	top:14.7em;
+	width:100%;
+
+}
+
+.container-bottom-nav-outer {
+	margin:0 auto;
+	width:$page-width;
+	@extend .horizontal-center;
+}
+
+.container-bottom-left {
+	width:45em;
+
+	li {
+		display:inline-block;
+		font-size:0.9em;
+		margin-right:2em;
+	}
+	
+}
+
+.container-bottom-right {
+	float:right;
+	position:relative;
+	top:50%;
+	transform:translateY(-70%);
+}
+
+.social-icon {
+	background-color:red;
+	margin-left:1em;
+	height:2.5em;
+	width:2.5em;
+	position:relative;
+	top:50%;
+	transform:translateY(5%);
+}
 
 
 
