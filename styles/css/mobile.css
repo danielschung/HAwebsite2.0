@@ -91,7 +91,8 @@ input:focus {
 
 .wrapper-right {
   height: 3.5em;
-  width: 23em;
+  width: 25em;
+  background-color: blue;
   float: right; }
 
 .container-location {

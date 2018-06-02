@@ -145,7 +145,8 @@ input:focus {
 
 .wrapper-right {
 	height:$nav-container-height;
-	width:24em;
+	width:25em;
+	background-color:blue;
 	float:right;
 	@extend .horizontal-center;
 
