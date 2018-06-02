@@ -145,7 +145,7 @@ input:focus {
 
 .wrapper-right {
 	height:$nav-container-height;
-	width:25.7em;
+	width:23em;
 	float:right;
 	@extend .horizontal-center;
 
@@ -156,7 +156,7 @@ input:focus {
 	border-radius:$button-border-radius;
 	height:2em;
 	padding:0.5em 0.5em;
-	width:47%;
+	width:12em;
 	@extend .horizontal-center;
 	@extend .hover;
 }
@@ -184,7 +184,7 @@ input:focus {
 	text-align:right;
 	top:-87%;
 	transform:translateY(30%);
-	width:45%;
+	width:9,5em;
 
 	a {
 		color:black;
@@ -235,8 +235,9 @@ input:focus {
 
 .container-header-text {
 	height:14em;
-	margin:0 auto;
 	width:57.7em;
+	left:12%;
+	float:left;
 	@extend .horizontal-center;
 
 	h1,h2 {
@@ -289,13 +290,13 @@ input:focus {
 	height:27em;
 	margin:8.5em 0 2em 0;
 	text-align:center;
-	width:31.7%;
+	width:31.4%;
 	@extend .hover;
 
 	.container-selection-inner {
 		height:20em;
 		margin:0 auto;
-		width:23em;
+		width:100%;
 		@extend .horizontal-center;
 	}
 
@@ -307,7 +308,7 @@ input:focus {
 	.image {
 		margin:2em auto 0 auto;
 		position:relative;
-		width:80%;
+		width:70%;
 		height:12em;
 		background-color:black;
 	}
@@ -448,7 +449,7 @@ footer {
 		height:1.8em;
 		letter-spacing:0.1em;
 		line-height:0;
-		width:15em;
+		width:87%;
 	}
 
 	.search-button {
@@ -475,8 +476,9 @@ footer {
 
 .container-bottom-nav-outer {
 	margin:0 auto;
-	width:$page-width;
+	max-width:$page-width;
 	@extend .horizontal-center;
+	width:100%;
 }
 
 .container-bottom-left {

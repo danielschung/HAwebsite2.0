@@ -348,4 +348,8 @@ footer {
   top: 50%;
   transform: translateY(5%); }
 
-/*# sourceMappingURL=main.css.map */
+@media screen and (max-width: 1277px) {
+  .container-page, .container-nav, .container-findtherightplan-inner {
+    max-width: 90%; } }
+
+/*# sourceMappingURL=mobile.css.map */
